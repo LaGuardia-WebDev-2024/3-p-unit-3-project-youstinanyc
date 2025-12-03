@@ -3,14 +3,14 @@ Requirements
 [ yes ] Two External Links
 [ yes ] Table (minimum 2 Columns by 3 Rows)
 [ yes ] Three CSS Rules
-[  ] Three Images
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
 [ no ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
-[ no ] Feature 5 - Include at least two Internal links
+[ yes ] Feature 5 - Include at least two Internal links
 -->
 
 <!DOCTYPE html>
@@ -28,15 +28,20 @@ Select ONE Additional Feature to Add
     li {color:#785232}
     th {color:#785232}
     td {color:#785232}
+    table th, td {
+       border: 1px solid saddlebrown
+    }
+
   </style>
 </head>
 
 <body>
 <h1>Youstina's Recipe Book</h1>
+ <p>Recipes by Youstina (the best baker ever)</p>
+ <p><em> <a href="#cinnamonshortcut">recipe 1</a></em></p>
+ <p><em> <a href="#pumpkinshortcut">recipe 2</a></em></p>
 
-
-  <h2>cinnamon swirl cookies!!</h2>
-  <p>Recipes by Youstina (the best baker ever)</p>
+<h2 id="cinnamonshortcut">cinnamon swirl cookies!!</h2>
   <img class=yummy  src="https://sugarspunrun.com/wp-content/uploads/2023/11/Cinnamon-Cookies-1-of-1.jpg"  width= 400 alt="cinnamon cookies">
 
   <ul>
@@ -85,10 +90,9 @@ Select ONE Additional Feature to Add
  <p><strong>Step 4:</strong> Drop the swirl into the dough by large spoonfuls then, carefully, fold it into the dough, mixing until you have a distinct ripple </p>
  <p><strong>Step 5:</strong> Scoop and roll 1 ½ tablespoon portions of dough between your palms, then place 2″ apart on parchment lined baking sheets.</p>
  <p><strong>Step 6:</strong> Bake for 10-11 minutes. when let the cookies cool completely on the baking sheets before enjoying!!!</p>
-  <p><em>Source: <a href="https://sugarspunrun.com/cinnamon-cookies/">Sugar spun run recipies</a></em></p>
-  <p><em> <a href="https://www.veggieinspired.com/cinnamon-sugar-cookies-gluten-free/">heres another recipe if you're vegan</a></em></p>
+  
 
-  <h2>fluffy pumpkin cinnamon rolls!!</h2>
+<h2 id="pumpkinshortcut">fluffy pumpkin cinnamon rolls!!</h2>
 <img class="yummy" src="https://peanutbutterandjulie.com/wp-content/uploads/2009/10/Pumpkin-cinnamon-rolls-on-a-platter-sq.jpg" width="400" alt="pumpkin shaped cinnamon rolls"
 
   <ul>
@@ -213,7 +217,11 @@ Select ONE Additional Feature to Add
   <p><em>Source recipe 1: <a href="https://sugarspunrun.com/cinnamon-cookies/">Sugar spun run recipies</a></em></p>
   <p><em>Source recipe 2: <a href="https://peanutbutterandjulie.com/whole-wheat-pumpkinpraline-cinnamon-rolls/">Peanut butter and Julie recipies</a></em></p>
   <p><em> <a href="https://www.veggieinspired.com/cinnamon-sugar-cookies-gluten-free/">heres another recipe if you're vegan</a></em></p>
+  <p>THANK YOU FOR READING MY RECIPES!!!</p>
+<img src="https://www.nyan.cat/cats/original.gif" alt="nyan cat" width="200"
 
+
+  
 </body>
 
 </html>
